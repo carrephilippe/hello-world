@@ -7,6 +7,8 @@
 <body>
 <?php 
 	echo "<p>Bonjour!!! de Villebon Sur Yvette</p>";
+	echo 'Version PHP courante : ' . phpversion()." <BR>";
+	
 	for ($nombre_de_lignes = 1; $nombre_de_lignes <= 10; $nombre_de_lignes++) {
 		echo 'Ceci est la ligne n' . $nombre_de_lignes . '<br />';
 
